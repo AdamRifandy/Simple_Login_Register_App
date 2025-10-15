@@ -12,7 +12,7 @@
         }
 
         .bg {
-            background-color: grey;
+            background-color: rgb(206, 206, 206);
             width: 400px;
             height: 400px;
             margin-inline: auto;
@@ -22,7 +22,8 @@
 
         .bg h1 {
             text-align: center;
-            padding-top: 30px;
+            margin-top: 90px;
+            padding-top: 60px;
             margin-bottom: 50px;
             cursor: default;
         }
@@ -46,11 +47,19 @@
             width: 174px;
             height: 25px;
             cursor: pointer;
+            background-color: greenyellow;
+            
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        #submitBtn:hover {
+            background-color: white;
+            color: black;
         }
 
         #registerText {
             display: block;
-            color: rgb(78, 187, 255);
+            color: rgb(72, 102, 121);
             text-align: center;
             cursor: pointer;
         }
