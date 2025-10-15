@@ -1,0 +1,11 @@
+{
+    "name": "simple-login-or-register-app",
+    "version": "1.0.0",
+    "main": "index.html",
+    "window": {
+        "title": "Simple Login & Register App",
+        "width": 800,
+        "height": 600,
+        "resizable": true
+    }
+}
