@@ -72,5 +72,18 @@
             <span id="registerText">Register</span>
         </form>
     </div>
+
+    <script>
+        const header = document.getElementById("changeable");
+        const username = document.getElementById("username");
+        const password = document.getElementById("pw");
+        const submitButton = document.getElementById("submitBtn");
+        const changeMode = document.getElementById("registerText");
+
+        submitButton.addEventListener("submit", (e) => {
+            e.preventDefault();
+
+        });
+    </script>
 </body>
 </html>
