@@ -84,6 +84,20 @@
             e.preventDefault();
 
         });
+
+        changeMode.addEventListener("click", (e) => {
+            e.preventDefault();
+
+            if (header.textContent == "Login") {
+                header.textContent = "Register";
+                submitButton.value = "Register";
+                changeMode.textContent = "Login";
+            } else {
+                header.textContent = "Login";
+                submitButton.value = "Login";
+                changeMode.textContent = "Register";
+            }
+        })
     </script>
 </body>
 </html>
